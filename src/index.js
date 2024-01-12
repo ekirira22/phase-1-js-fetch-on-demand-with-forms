@@ -3,7 +3,7 @@ const init = () => {
     document.querySelector('form').addEventListener('submit', e => {
         e.preventDefault()
         retrieveMovies(e)
-        e
+    
     })
 
 
